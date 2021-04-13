@@ -116,11 +116,11 @@ body {
         margin-bottom: 15px;
      }
 
-     .form-label {
+    .form-label {
          margin: 0 5px;
      }
 
-     .form-button {
+    .form-button {
         color: #fce138;
         background-color: #024e76;
         border: none;
@@ -129,11 +129,11 @@ body {
       }
       /* HERO STYLES END */
       
-      .intro {
+    .intro {
           text-align: center;
       }
 
-      .intro p {
+    .intro p {
         line-height: 1.7;
         color: #39a6b2;
         width: 80%;
@@ -141,28 +141,10 @@ body {
         margin: 0 auto;
       }
 
-      .steps {
+    .steps {
           text-align: center;
           background: #fce138;
       }
-     
-
-      .section.title {
-        font-size: 55px;
-        color: #024e76;
-        margin-bottom: 35px;
-        padding: 0 100px 20px 100px;
-        display: inline-block;
-        border-bottom: 3px solid;
-          }
-
-    .primary-border {
-        border-color: #fce138;
-          }
-          
-    .secondary-border {
-        border-color: #39a6b2;
-          }
 
     .steps div {
         margin-bottom: 80px;
@@ -187,3 +169,22 @@ body {
     .steps span {
         font-size: 38px;
     }
+     
+
+    .section-title {
+        font-size: 55px;
+        color: #024e76;
+        margin-bottom: 35px;
+        padding: 0 100px 20px 100px;
+        display: inline-block;
+        border-bottom: 3px solid;
+          }
+
+    .primary-border {
+        border-color: #fce138;
+          }
+          
+    .secondary-border {
+        border-color: #39a6b2;
+          }
+

@@ -44,10 +44,15 @@ header nav ul {
     list-style: none;
 }
 
+header nav li {
+    display: inline;
+    padding-right: 30px;
+}
+
   header nav ul li a {
       margin: 0 30 px;
       font-weight: lighter;
-      font-size: .55vw;
+      font-size: 20px;
   }
 
   footer {
@@ -339,6 +344,12 @@ header nav ul {
       
       .contact-info a {
         color: #fce138;
+      }
+
+      .contact-info {
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
       }
       
       /* REACH OUT STYLES END */

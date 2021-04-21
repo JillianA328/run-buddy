@@ -14,11 +14,8 @@
       <a href="/">RUN BUDDY</a>
     </h1>
     <nav>
-      <!-- Unordered list element -->
       <ul>
-        <!-- List item element -->
         <li>
-          <!-- Anchor Element-->
           <a href="#what-we-do">What We Do</a>
         </li>
         <li>
@@ -30,21 +27,22 @@
         <li>
           <a href="#reach-out">Reach Out</a>
         </li>
+
       </ul>
     </nav>
   </header>
-</body>
+<!--End Navigation-->
 
 <!-- hero/jumbotron -->
 <section class="hero">
+  <div class="hero-cta">
   <h2>Start Building Habits.</h2>
   <p>
     seitan heirloom post-ironic pop-up iPhone mlkshk hella selfies fashion axe occupy readymade put a bird on it messenger bag Wes Anderson Schlitz plaid Bushwick church-key lo-fi skateboard slow-carb hashtag trust fund Williamsburg biodiesel fixie farm-to-table 8-bit banjo XOXO Banksy chillwave bicycle rights retro cliche tattooed bespoke irony mumblecore Shoreditch deep v polaroid McSweeney's bitters cray gentrify tofu Marfa you probably haven't heard of them yr banh mi asymmetrical art party selvage letterpress High Life.
   </p>
 </div>
-  <div class="hero-form">
-    <div class="hero-cta">
 
+  <div class="hero-form">
     <h3>Get Started Today</h3>
     <p>Fill out this form and one of our trainers will schedule a consult</p>
     <!-- Add for element-->
@@ -62,7 +60,10 @@
         <input type="radio" name="trainer-confirm" id="trainer-no" class=form-label>
         <label for="trainer-no">No</label>
       </p>
-      <p>I acknowledge that I am at least 18 years of age
+      <p>
+        <label for="checkbox">
+        I acknowledge that I am at least 18 years of age.
+        </label>
         <input type="checkbox" name="age-confirm" id="checkbox" />
       </p>
       <button type:"submit" class="form-button">
@@ -71,12 +72,15 @@
     </form>
   </div>
 </section>
-<!--end hero-->
+<!--end header-->
 
 <!-- "what we do" section -->
 <section id="what-we-do" class="intro">
   <div class="flex-row">
-  <h2 class="section-title primary-border">What We Do</h2>
+  <h2 class="section-title primary-border">What We Do
+</h2>
+  </div>
+  <dic class="flex-row"></dic>
   <p>
     Butcher selfies chambray shavvy chic gentrify readymade yr echo park XOXO tumblr normcore Bansky direct trade blue
     Bottle chillwave you probably haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin
@@ -85,6 +89,7 @@
   </p>
 </div>
 </section>
+<!--End what we do-->
 
 <!-- "what you do" section -->
 <section id="what-you-do" class="steps">
@@ -98,6 +103,7 @@
     <div class="step-info">
       <div class="step-img">
         <img src="./assets/image/step-1.svg" alt="" />
+        </div>
         <div class="step-text">
           <h4>Fill Out The Form Above</h4>
           <p>You're already here, so why not?</p>
@@ -105,21 +111,24 @@
       </div>
     </div>
 
-    <h3>Step 2.</h3>
+    <div class="step">
+          <h3>Step 2.</h3>
     <div class="step-info">
       <div class="step-img">
         <img src="./assets/image/step-2.svg" alt="" />
+        </div>
         <div class="step-text">
           <h4>Consult with One of Our Trainers</h4>
           <p>Are you here to build muscle, lose weight, or just feel good?</p>
         </div>
       </div>
     </div>
-
+    <div class="step">
     <h3>Step 3.</h3>
     <div class="step-info">
       <div class="step-img">
         <img src="./assets/image/step-3.svg" alt="" />
+        </div>
         <div class="step-text">
           <h4>Get running.</h4>
           <p>Hit the ground running (literally) once your trainer lays out your plan</p>
@@ -127,10 +136,12 @@
       </div>
     </div>
 
+    <div class="step">
     <h3>Step 4.</h3>
     <div class="step-info">
       <div class="step-img">
         <img src="./assets/image/step-4.svg" alt="" />
+        </div>
         <div class="step-text">
           <h4>See Results.</h4>
           <p>Bi-weekly checkins with your trainer will keep you focused.</p>
@@ -138,13 +149,17 @@
       </div>
     </div> 
 </section>
+<!--What you do end-->
 
 <!-- "meet the trainers" section -->
 <section id="your-trainers">
+  <div class="flex-row">
   <h2 class="section-title primary-border">Meet The Trainers</h2>
+  </div>
+  
 
   <!--First Trainer Bio-->
-  <div class="trainers">
+  
   <article class="trainer">
     <img src="./assets/image/trainer-1.jpg" alt=Aaron Stephens in his workout clothes, ready to pump iron" />
     <div class="trainer-bio">
@@ -174,8 +189,7 @@
 
   <!--Third Trainer Bio-->
   <article class="trainer">
-    <img src="./assets/image/trainer-3.jpg"
-      alt="Harry Smith wearing a headband and lifting comically small pink weights" />
+    <img src="./assets/image/trainer-3.jpg" alt="Harry Smith wearing a headband and lifting comically small pink weights" />
     <div class="trainer-bio">
       <h3 class="trainer-name">Harry "the Headband" Smith</h3>
       <h4 class="trainer-role">Strength</h4>
@@ -186,61 +200,65 @@
       </p>
     </div>
   </article>
-</section>
 </div>
+</section>
+<!--Meet the trainers end-->
+
 
 <!-- "reach out" section -->
 <section id="reach-out" class="contact">
+  <div class="flex-row">
   <h2 class="section-title secondary-border">Reach Out</h2>
-  <div class="contact-info row">
-    <div class="row">
-    
-      <!--<div class="column-left"></div>-->
-      
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3012.574040594197!2d-74.147861284604!3d40.96890937930482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2fcb646aa0557%3A0xe9defade7872ea0a!2s129%20Rock%20Rd%2C%20Hawthorne%2C%20NJ%2007506!5e0!3m2!1sen!2sus!4v1618362840147!5m2!1sen!2sus">
-      
-      </iframe>
-      <div class="contact-form">
-        <h3>Contact Us</h3>
-        <form>
-           <label for="contact-name">Your Name</label>
-           <input type="text" id="contact-name" placeholder="Your Name" />
-      
-           <label for="contact-message">Message</label>
-           <textarea id="contact-message" placeholder="Message"></textarea>
-      
-           <button type="submit">Submit</button>
-          </form>
-      </div>
-    </div>
-    <div class="column-right">
-      <h3>Run Buddy</h3>
-      <p>Any questions or concerns before signing up?
-        <br />
-        Let us know and we'll be happy to talk to you!
-      </p>
-      <address>
-        55 Main Street <br />
-        Some Town, Ca <br />
-        12345 <br />
-        P: 555.RUN.BUDZ (555.786.2839)<br />
-        E: <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
-    </div>
   </div>
-  </address>
 
-  </div>
-  </div>
+  <!--Contact Info-->
+      <div class="contact-info">
+        <div>
+          <h3>Run Buddy</h3>
+          <p>
+            Any questions or concerns before signing up?
+            <br />
+            Let us know and we'll be happy to talk to you!
+          </p>
+      
+          <address>
+            55 Main Street <br />
+            Some Town, Ca <br />
+            12345 <br />
+            P: <a href="tel:555.786.2839">555.RUN.BUDZ (555.786.2839)</a><br />
+            E: <a href="mailto://info@runbuddy.io">info@runbuddy.io</a>
+          </address>
+      
+        </div>
+      
+        <div class="contact-form">
+          <h3>Contact Us</h3>
+          <form>
+            <label for="contact-name">Your Name</label>
+            <input type="text" id="contact-name" placeholder="Your Name" />
+      
+            <label for="contact-message">Message</label>
+            <textarea id="contact-message" placeholder="Message"></textarea>
+      
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      
+        <iframe src="http://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3012.5740405941947!2d-74.147861284604!3d40.96890937930487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2fcb646aa0557%3A0xe9defade7872ea0a!2s129%20Rock%20Rd%2C%20Hawthorne%2C%20NJ%2007506!5e0!3m2!1sen!2sus!4v1618976831625!5m2!1sen!2sus">
+        </iframe>
+      
+      </div>
 
 </section>
+<!--Reach Out End-->
 
 <!-- footer -->
 <footer>
   <h2>❤️ Made with love by Run Buddy.</h2>
-  <div><a href="#">Read Our Privacy Policy</a><br />
+  <div><a href="./privacy-policy.html">Read Our Privacy Policy</a><br />
     &copy; 2019 Run Buddy, Inc.
   </div>
 </footer>
 
+</body>
 </html>
